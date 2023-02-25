@@ -1,0 +1,189 @@
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+.navigation {
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+nav {
+    margin-left: 40%;
+    display: flex;
+}
+
+.in_nav {
+    height: 35px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    margin: 10px;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+}
+ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+}
+
+
+
+/* Container 1 */
+
+.container01 {
+    /* background: url(img/pod1.png); */
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom:200px ;
+    padding-left: 100px;
+    padding-right: 200px;
+    margin:0px 100px 0px 100px;
+    display: flex;
+    margin-right: 300px;
+}
+.cont1text h1{
+    font-size: 60px;
+}
+.cont1text p{
+    font-size: 20px;
+}
+.but1{
+    padding: 10px 15px 10px 15px;
+    border-radius:20px;
+    border: none;
+    box-shadow: 1px 1px 10px -5px black;
+    margin: 10px 20px 10px 0px;
+    text-align: center;
+    color: black;
+    background-color: yellow;
+}
+.but1:hover{
+    color: black;
+    background: white;
+}
+.but2{
+    padding: 10px 15px 10px 15px;
+    border-radius:20px;
+    border: none;
+    box-shadow: 1px 1px 10px -5px black;
+    margin: 10px 20px 10px 0px;
+    text-align: center;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.but2:hover{
+    color: black;
+    background-color: yellow;
+}
+.socialicon{
+    position: absolute;
+    top: 460px;
+}
+.socialicon img{
+    width: 25px;
+    padding: 6px;
+    cursor: pointer;
+}
+.socialicon img:hover{
+    width: 32px;
+}
+.cont1img img{
+    width: 500px;
+    border-radius: 20px;
+    position: absolute;
+    right: 13%;
+    top: 27%;
+}
+
+
+
+/* container02 */
+.container02{
+    display: flex;
+    border: 1px solid yellow;
+    background-color: yellow;
+    padding: 200px 200px;
+    margin: 100px 0px 200px 0px;
+    align-items: center;
+    text-align: center;
+}
+.cont01txt h2{
+    font-size: 60px;
+}
+.cont01txt h3{
+    font-size: 25px;
+    line-height: 50px;
+}
+/* .cont01txt p{
+    
+} */
+.img_sec2{
+    width: 400px;
+    border-radius: 50%;
+    padding: 30px;
+    position: absolute;
+    right: 15%;
+}
+
+
+/* Container 03 */
+.container03{
+    text-align: center;
+}
+.cont3pod{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 50px 100px;
+}
+.cont3pod h3{
+    box-shadow: 1px 1px 5px 1px  rgb(0, 0, 0);
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+.pod{
+    background: url(img/backg.jpg);
+    flex-basis: 10%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 20px;
+    box-shadow: -1px -1px 15px 0px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.pod:hover{
+    border-radius: 20px ;
+}
+.pod h3:hover{
+    background-color: yellow;
+    border-radius: 20px;
+}
+

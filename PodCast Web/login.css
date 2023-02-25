@@ -1,0 +1,77 @@
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Navigation */
+.navigation {
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+nav {
+    margin-left: 40%;
+    display: flex;
+}
+
+.in_nav {
+    height: 35px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    margin: 10px;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+}
+ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+}
+
+/* Container 01 */
+.forml{
+    text-align: center;
+    padding: 100px;
+}
+.forml input{
+    padding: 10px 15px 10px 15px;
+    margin: 5px;
+    border-radius: 15px;
+}
+.forml button{
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px ;
+    padding: 7px 10px 7px 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 5px 1px black;
+    cursor: pointer;
+}
+h2{
+    padding-top: 30px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,91 @@
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+/* Navigation */
+.navigation {
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+nav {
+    margin-left: 40%;
+    display: flex;
+}
+
+.in_nav {
+    height: 35px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    margin: 10px;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+}
+ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+}
+
+
+/* container 01 */
+
+.container03{
+    text-align: center;
+}
+.cont3pod{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 50px 100px;
+}
+.cont3pod h3{
+    box-shadow: 1px 1px 5px 1px  rgb(0, 0, 0);
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+.pod{
+    background: url(img/backg.jpg);
+    flex-basis: 10%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 20px;
+    box-shadow: -1px -1px 15px 0px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.pod:hover{
+    border-radius: 20px ;
+}
+.pod h3:hover{
+    background-color: yellow;
+    border-radius: 20px;
+}
